@@ -10,6 +10,15 @@ import {
   Form,
 } from "react-bootstrap";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
+import logoimg from "./img/logo512.png";
+import homeicon from "./img/home.png";
+import interneticon from "./img/internet.png";
+import chart from "./img/bar-chart.png";
+import likeicon from "./img/like.png";
+import moneyicon from "./img/money.png";
+import ipoicon from "./img/ipo.png";
+import moreicon from "./img/more.png";
+import usericon from "./img/user.png";
 
 function App() {
   return (
@@ -20,7 +29,7 @@ function App() {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src="logo512.png"
+              src={logoimg}
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -32,7 +41,7 @@ function App() {
             <Nav>
               <Nav.Link href="#home">
                 <img
-                  src="internet.png"
+                  src={interneticon}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -50,7 +59,7 @@ function App() {
               </Nav.Link>
               <Nav.Link href="#home">
                 <img
-                  src="like.png"
+                  src={likeicon}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -59,7 +68,7 @@ function App() {
               </Nav.Link>
               <Nav.Link href="#home">
                 <img
-                  src="ipo.png"
+                  src={ipoicon}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
