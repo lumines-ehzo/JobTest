@@ -1,13 +1,11 @@
 import "./App.css";
 import {
-  Button,
   Card,
   Row,
   Col,
   Container,
   Navbar,
   Nav,
-  NavDropdown,
   Dropdown,
   Form,
 } from "react-bootstrap";
@@ -22,7 +20,7 @@ function App() {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src="./public/logo512.png"
+              src="logo512.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -34,7 +32,7 @@ function App() {
             <Nav>
               <Nav.Link href="#home">
                 <img
-                  src="/internet.png"
+                  src="internet.png"
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -43,7 +41,7 @@ function App() {
               </Nav.Link>
               <Nav.Link href="#home">
                 <img
-                  src="/bar-chart.png"
+                  src="bar-chart.png"
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -52,7 +50,7 @@ function App() {
               </Nav.Link>
               <Nav.Link href="#home">
                 <img
-                  src="/like.png"
+                  src="like.png"
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
@@ -61,7 +59,7 @@ function App() {
               </Nav.Link>
               <Nav.Link href="#home">
                 <img
-                  src="/ipo.png"
+                  src="ipo.png"
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
