@@ -22,7 +22,7 @@ function App() {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src="/logo512.png"
+              src="./public/logo512.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
