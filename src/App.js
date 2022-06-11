@@ -50,7 +50,7 @@ function App() {
               </Nav.Link>
               <Nav.Link href="#home">
                 <img
-                  src="bar-chart.png"
+                  src={chart}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
