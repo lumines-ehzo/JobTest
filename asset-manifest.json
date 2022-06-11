@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JobTest/static/css/main.1b7621aa.css",
-    "main.js": "/JobTest/static/js/main.15bbf70c.js",
+    "main.css": "/JobTest/static/css/main.ab45e4c5.css",
+    "main.js": "/JobTest/static/js/main.2ef4e57c.js",
     "static/js/787.0c3f432a.chunk.js": "/JobTest/static/js/787.0c3f432a.chunk.js",
     "static/media/internet.png": "/JobTest/static/media/internet.7c99c6b1112a19bfa363.png",
     "static/media/user.png": "/JobTest/static/media/user.d8e64cf2bf870e1ffeec.png",
@@ -11,12 +11,12 @@
     "static/media/ipo.png": "/JobTest/static/media/ipo.1c670d4e283d6fae6d7f.png",
     "static/media/money.png": "/JobTest/static/media/money.b88e914cbf0327541321.png",
     "index.html": "/JobTest/index.html",
-    "main.1b7621aa.css.map": "/JobTest/static/css/main.1b7621aa.css.map",
-    "main.15bbf70c.js.map": "/JobTest/static/js/main.15bbf70c.js.map",
+    "main.ab45e4c5.css.map": "/JobTest/static/css/main.ab45e4c5.css.map",
+    "main.2ef4e57c.js.map": "/JobTest/static/js/main.2ef4e57c.js.map",
     "787.0c3f432a.chunk.js.map": "/JobTest/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b7621aa.css",
-    "static/js/main.15bbf70c.js"
+    "static/css/main.ab45e4c5.css",
+    "static/js/main.2ef4e57c.js"
   ]
 }
