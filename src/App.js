@@ -19,10 +19,12 @@ import moneyicon from "./img/money.png";
 import ipoicon from "./img/ipo.png";
 import moreicon from "./img/more.png";
 import usericon from "./img/user.png";
+import Sidebar from "./sidebar";
 
 function App() {
   return (
-    <div>
+    <div id="App">
+      <Sidebar />
       <Navbar bg="light" variant="light" expand="lg">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
