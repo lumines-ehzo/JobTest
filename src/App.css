@@ -1,0 +1,12 @@
+.trackID ,.ranked{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #00A4E4;
+}
+.detail{
+    font-size: 18;
+}
+.level{
+    font-size: 16;
+}
