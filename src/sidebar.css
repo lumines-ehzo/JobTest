@@ -1,15 +1,11 @@
-.App{
-    width: 100vw;
-    height: 100vh;
+.trackID ,.ranked{
+    font-weight: bold;
+    font-size: 32px;
+    color: #00A4E4;
 }
-
-body{
-    margin: 0;
-    padding: 0;
+.detail{
+    font-size: 18;
 }
-
-.Sidebar{
-    height: 100%;
-    width: 120px;
-    background-color: #00A4E4;
+.level{
+    font-size: 16;
 }

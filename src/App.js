@@ -11,19 +11,15 @@ import {
 } from "react-bootstrap";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 import logoimg from "./img/logo512.png";
-import homeicon from "./img/home.png";
 import interneticon from "./img/internet.png";
 import chart from "./img/bar-chart.png";
 import likeicon from "./img/like.png";
-import moneyicon from "./img/money.png";
 import ipoicon from "./img/ipo.png";
-import moreicon from "./img/more.png";
-import usericon from "./img/user.png";
 import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
-    <div id="App">
+    <div className="App">
       <Navbar bg="light" variant="light" expand="lg">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,10 +29,9 @@ function App() {
               src={logoimg}
               width="30"
               height="30"
-              className="d-inline-block align-top"
             />{" "}
           </Navbar.Brand>
-
+          
           <Navbar.Collapse className="justify-content-center">
             <div className="me-auto"></div>
             <Nav>
@@ -82,7 +77,7 @@ function App() {
       </Navbar>
       <Row>
         <Col md={1}>
-          <div className="Sidebar">Sidebar</div>
+          <Sidebar/>
         </Col>
         <Col md={10}>
           <Container style={{ padding: 50 }}>
@@ -487,6 +482,7 @@ function App() {
           Rattapoom Ruengkla
         </a>
       </footer>
+      
     </div>
   );
 }
