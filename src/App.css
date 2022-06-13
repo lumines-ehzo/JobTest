@@ -1,54 +1,71 @@
-.trackID ,.ranked{
-    font-weight: bold;
-    font-size: 32px;
-    color: #00A4E4;
+.trackID,
+.ranked {
+  font-weight: bold;
+  font-size: 32px;
+  color: #00a4e4;
 }
-.detail{
-    font-size: 18;
+.detail {
+  font-size: 18;
 }
-.level{
-    font-size: 16;
+.level {
+  font-size: 16;
 }
-.App{
-    width: 100vw;
-    height: 100vh;
-}
-
-body{
-    margin: 0;
-    padding: 0;
+.App {
+  width: 100vw;
+  height: 100vh;
 }
 
-.Sidebar{
-    height: 100%;
-    width: 120px;
-    background-color: #00A4E4;
-}
-
-.SidebarList{
-    height: auto;
-    padding: 0;
-    width: 100%;
-}
-
-.SidebarList .row{
-    width: 100%;
-    height: 100px;
-    border: 1px solid white;
-    list-style-type: none;
-    margin: 0%;
+.image-container{
     display: flex;
-    flex-direction: row;
-    color: azure;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+   justify-content: center;
+   align-items: center;
 }
 
-.SidebarList .row:hover{
-    cursor: pointer;
-    background-color: white;
-    color: #00A4E4;
+body {
+  margin: 0;
+  padding: 0;
 }
 
+.Sidebar {
+  height: 100%;
+  width: 120px;
+  background-color: #00a4e4;
+}
 
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.SidebarList .row {
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: azure;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.SidebarList .row:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #00a4e4;
+}
+
+footer {
+  text-align: center;
+  background-color: #00a4e4;
+  padding: 20px;
+  color: white;
+}
+footer a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}

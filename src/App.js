@@ -24,52 +24,44 @@ function App() {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src={logoimg}
-              width="30"
-              height="30"
-            />{" "}
+            <img alt="" src={logoimg} width="30" height="30" />{" "}
           </Navbar.Brand>
-          
+
           <Navbar.Collapse className="justify-content-center">
             <div className="me-auto"></div>
             <Nav>
-              <Nav.Link href="#home">
-                <img
-                  src={interneticon}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                />{" "}
-                เว็บไซต์หลัก
+              <Nav.Link href="#home" style={{paddingTop:"20px"}}>
+                <div className="image-container">
+                  <img src={interneticon} height="24" />
+                </div>{" "}
+                <p style={{ color: "#666",textAlign:"center" }}>เว็บไซต์หลัก</p>
               </Nav.Link>
-              <Nav.Link href="#home">
+              <Nav.Link href="#home" style={{paddingTop:"20px"}}>
+              <div className="image-container">
                 <img
                   src={chart}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                />{" "}
-                มูลค่าหน่วยลงทุน
+                  width="60"
+                />
+                </div>{" "}
+                <p style={{ color: "#666",textAlign:"center" }}>มูลค่าหน่วยลงทุน</p>
               </Nav.Link>
-              <Nav.Link href="#home">
+              <Nav.Link href="#home" style={{paddingTop:"20px"}}>
+              <div className="image-container">
                 <img
                   src={likeicon}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                />{" "}
-                กองทุนแนะนำ
+                  width="20"
+                />
+                </div>{" "}
+                <p style={{ color: "#666",textAlign:"center" }}>กองทุนแนะนำ</p>
               </Nav.Link>
-              <Nav.Link href="#home">
+              <Nav.Link href="#home" style={{paddingTop:"20px"}}>
+              <div className="image-container">
                 <img
                   src={ipoicon}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                />{" "}
-                กองทุนใหม่
+                  width="25"
+                />
+                </div>{" "}
+                <p style={{ color: "#666",textAlign:"center" }}>กองทุนใหม่</p>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -77,7 +69,7 @@ function App() {
       </Navbar>
       <Row>
         <Col md={1}>
-          <Sidebar/>
+          <Sidebar />
         </Col>
         <Col md={10}>
           <Container style={{ padding: 50 }}>
@@ -474,15 +466,12 @@ function App() {
           </Container>
         </Col>
       </Row>
-      <footer
-        style={{ textAlign: "center", backgroundColor: "#00A4E4", padding: 20 }}
-      >
+      <footer>
         Test Job
-        <a href="" target="_blank" style={{ marginLeft: 4, color: "GrayText" }}>
+        <a href="https://github.com/lumines-ehzo/JobTest" target="_blank">
           Rattapoom Ruengkla
         </a>
       </footer>
-      
     </div>
   );
 }
